@@ -11,5 +11,10 @@ namespace WinFormsApp1
         {
             MessageBox.Show("Yeni bir mesaj eklendi.");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Selam");
+        }
     }
 }
